@@ -3,7 +3,6 @@ pandas==2.2.2
 scikit-learn==1.4.2
 xgboost==2.0.3
 joblib==1.4.2
-ydata-profiling==4.6.4
 setuptools>=65.5.0
 matplotlib==3.8.4
 seaborn==0.13.2

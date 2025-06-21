@@ -6,12 +6,6 @@ df.head()
 # Display data types, non-null counts, and memory usage
 df.info()
 print(df.shape)
-# Create a pandas profiling report
-from ydata_profiling import ProfileReport
-# Create and save the profiling report
-profile = ProfileReport(df, title="Financial Inclusion Profiling Report", explorative=True)
-profile.to_file("Financial_inclusion_report.html")
-print("✔ Rapport generated successfully ! Open file expresso_churn_report.html")
 df_cleaned = df.copy()
 # check missing values
 print(df.isnull().sum())
